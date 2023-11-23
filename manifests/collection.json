@@ -1,0 +1,13 @@
+{
+  "id" : "https://23haz23.github.io/manifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in 23haz23/manifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://23haz23.github.io/manifest/manifests/manifest.json",
+    "label" : "gatto"
+  } ]
+}
