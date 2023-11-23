@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://23haz23.github.io/manifest/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "gatto",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "cat",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "hazzoro",
+  "sequences" : [ {
+    "@id" : "http://76e56a2f-5faa-43dc-83b9-2fe954b2ec2d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://19af1388-e72c-4a65-868c-261ee0db3b1b",
+      "@type" : "sc:Canvas",
+      "label" : "Gatto",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0d79f7d9-354b-417c-9d53-97f19a19caf5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/gatto_202311/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/gatto_202311",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://19af1388-e72c-4a65-868c-261ee0db3b1b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c6216329-409c-4c80-b409-8b5bd361ccc5",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2736,
+      "width" : 3648,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bd238080-f553-43ea-87cd-2159b2b43272",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/newyorkcity1960s/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/newyorkcity1960s",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2736,
+          "width" : 3648
+        },
+        "on" : "http://c6216329-409c-4c80-b409-8b5bd361ccc5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
