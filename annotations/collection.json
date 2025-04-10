@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://23haz23.github.io/manifest/annotations/istanbul_ferry.json" ],
+  "@id" : "https://23haz23.github.io/manifest/annotations/collection.json",
+  "label" : "All annotations loaded in 23haz23/manifest project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
